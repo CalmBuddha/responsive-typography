@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    margin: 0 auto;
+    padding: clamp(10px, 0.8vw, 15px);
+    font-family: "Inter", sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: clamp(20px, 2.5vw, 30px);
+}
+
+p {
+    /* font-size: max(min(0.5vw, 0.5em), 1rem); */
+    font-size: clamp(14px, 1.2vw, 18px);
+}
